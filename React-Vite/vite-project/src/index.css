@@ -1,0 +1,77 @@
+
+body, ul {
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+/* NavBar container */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+/* Unordered list styling */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around; /* Distribute list items evenly */
+  align-items: center;
+}
+
+/* List item styling */
+nav ul li {
+  margin: 0 15px;
+}
+
+/* Link styling */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+/* Active link styling (optional, based on route) */
+nav ul li a.active {
+  background-color: #575757;
+}
+
+
+/* Add styles for tables */
+table {
+  width: 100;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+img {
+  width: 50px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
